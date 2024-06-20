@@ -61,7 +61,7 @@ func (r *videoRepository) SaveFileToStorage(name string, data *multipart.FileHea
 	defer file.Close() 
 
 	_, err = io.Copy(out, file)
-	return filePath, err
+	return name, err
 }
 
 // func (r *videoRepository) GetFileFromStorage(fileType string, name string) (*multipart.FileHeader, error) {
