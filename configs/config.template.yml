@@ -1,0 +1,12 @@
+# TODO: Rename this file to config.yml and change the values to your own
+
+app:
+  port: 8080
+
+jwt:
+  access_secret: # my_secret
+
+mongodb:
+  uri: # mongodb+srv://<username>:<password>@youtube-at-home-db.hzrqkee.mongodb.net/?retryWrites=true&w=majority&appName=youtube-at-home-db
+  database_name: # youtube-at-home-db
+  timeout: 1
